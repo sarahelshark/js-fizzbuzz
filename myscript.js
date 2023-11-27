@@ -20,6 +20,14 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
  - console.log
  -%
  -if/else
+ -forse math ? leggo doc
  */
 
+ //creo un ciclo di numeri fino a 100
+ //inserisco in una costante cio che voglio che il ciclo mi stampi in pagina
+ //se funziona, aggiungo quegli elementi in pagina dentro la row
+
+ //seleziono i numeri multipli di 3 e li trasformo
+ //selezionoi i numeri multipli di 5 e li trasformo
+ //seleziono i numerimultipli di 3 e 5 e  li trasformo
  
