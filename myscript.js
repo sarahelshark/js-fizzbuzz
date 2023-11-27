@@ -34,7 +34,6 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
      //se funziona,
      //console.log(square);
      //aggiungo quegli elementi in pagina dentro la row
-     
 
 /*if(multiplo di 3){
 //stampi “Fizz” al posto del numero
@@ -56,9 +55,9 @@ if (i % 3 === 0 && i % 5 === 0){
 } else if (i % 5 === 0){
     const Buzz = `<li style="border: 2px solid white;padding:25px;"  class= "box mb-3 me-3 d-flex justify-content-center">Buzz</li>`;
     ul.innerHTML += Buzz;
-}else{
+
+}else {
     ul.innerHTML += square;
 }
-     
  }
  
