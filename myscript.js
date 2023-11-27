@@ -45,7 +45,10 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
 }
 */
 if (i % 3 == 0 && i % 5 == 0){
-    console.log("fizzBuzz");
+    //console.log("fizzBuzz"); funziona
+    const squareFizzBuzz = `<li style="border: 2px solid white;padding:25px;"  class= "box mb-3 me-3 d-flex justify-content-center">"FizzBuzz"</li>`;
+    ul.innerHTML += squareFizzBuzz;
+
 } else if (i % 3 == 0) {
     console.log("fizz");
 } else if (i % 5 == 0){
