@@ -23,9 +23,21 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
  -forse math ? leggo doc
  */
 
+ //seleziono la mia lista e la racchiudo in una costante
+ const ul = document.querySelector('ul.fizzbuzz');
+ console.log(ul); //loggo per vedere che sia stato selezionato e inizializzato correttamente
+
  //creo un ciclo di numeri fino a 100
- //inserisco in una costante cio che voglio che il ciclo mi stampi in pagina
- //se funziona, aggiungo quegli elementi in pagina dentro la row
+ for (let i=1; i<101; i++){
+     //inserisco in una costante cio che voglio che il ciclo mi stampi in pagina
+     const square = `<li style="border: 2px solid white;" class= "box box--${i}">${i}</li>`;
+     //se funziona,
+     console.log(square);
+     //aggiungo quegli elementi in pagina dentro la row
+     ul.innerHTML += square;
+ }
+
+ 
 
  //seleziono i numeri multipli di 3 e li trasformo
  //selezionoi i numeri multipli di 5 e li trasformo
