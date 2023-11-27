@@ -30,14 +30,15 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
  //creo un ciclo di numeri fino a 100
  for (let i=1; i<101; i++){
      //inserisco in una costante cio che voglio che il ciclo mi stampi in pagina
-     const square = `<li style="border: 2px solid white;" class= "box box--${i}">${i}</li>`;
+     const square = `<li style="border: 2px solid white;padding:25px;" class= "box mb-3 me-3 d-flex justify-content-center box--${i}">${i}</li>`;
      //se funziona,
      console.log(square);
      //aggiungo quegli elementi in pagina dentro la row
      ul.innerHTML += square;
+
+     
  }
 
- 
 
  //seleziono i numeri multipli di 3 e li trasformo
  //selezionoi i numeri multipli di 5 e li trasformo
