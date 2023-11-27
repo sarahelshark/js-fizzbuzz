@@ -35,6 +35,7 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
      console.log(square);
      //aggiungo quegli elementi in pagina dentro la row
      ul.innerHTML += square;
+
 /*if(multiplo di 3){
 //stampi “Fizz” al posto del numero
 }else if(multiplo di 5){
@@ -42,9 +43,7 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
 }else if (multiplo di 3 e 5){
     stampi “FizzBuzz”
 }
-
 */
-
 if (i % 3 == 0 && i % 5 == 0){
     console.log("fizzBuzz");
 } else if (i % 3 == 0) {
