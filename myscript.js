@@ -25,16 +25,16 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
 
  //seleziono la mia lista e la racchiudo in una costante
  const ul = document.querySelector('ul.fizzbuzz');
- console.log(ul); //loggo per vedere che sia stato selezionato e inizializzato correttamente
+ //console.log(ul); //loggo per vedere che sia stato selezionato e inizializzato correttamente
 
  //creo un ciclo di numeri fino a 100
  for (let i=1; i<101; i++){
      //inserisco in una costante cio che voglio che il ciclo mi stampi in pagina(lascio style a i quadrati x visualizzarli meglio,poi togli)
      const square = `<li style="border: 2px solid white;padding:25px;" class= "box mb-3 me-3 d-flex justify-content-center box--${i}">${i}</li>`;
      //se funziona,
-     console.log(square);
+     //console.log(square);
      //aggiungo quegli elementi in pagina dentro la row
-     ul.innerHTML += square;
+     
 
 /*if(multiplo di 3){
 //stampi “Fizz” al posto del numero
@@ -56,6 +56,8 @@ if (i % 3 === 0 && i % 5 === 0){
 } else if (i % 5 === 0){
     const Buzz = `<li style="border: 2px solid white;padding:25px;"  class= "box mb-3 me-3 d-flex justify-content-center">Buzz</li>`;
     ul.innerHTML += Buzz;
+}else{
+    ul.innerHTML += square;
 }
      
  }
