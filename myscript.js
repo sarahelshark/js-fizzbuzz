@@ -35,12 +35,15 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
      console.log(square);
      //aggiungo quegli elementi in pagina dentro la row
      ul.innerHTML += square;
+/*if(multiplo di 3){
+//stampi “Fizz” al posto del numero
+}else if(multiplo di 5){
+//5 stampi “Buzz”.
+}else if (multiplo di 3 e 5){
+    stampi “FizzBuzz”
+}
 
+*/
      
  }
-
-
- //seleziono i numeri multipli di 3 e li trasformo
- //selezionoi i numeri multipli di 5 e li trasformo
- //seleziono i numerimultipli di 3 e 5 e  li trasformo
  
