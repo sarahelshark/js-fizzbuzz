@@ -30,7 +30,7 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
  //creo un ciclo di numeri fino a 100
  for (let i=1; i<101; i++){
      //inserisco in una costante cio che voglio che il ciclo mi stampi in pagina(lascio style a i quadrati x visualizzarli meglio,poi togli)
-     const square = `<li style="border: 2px solid white;padding:25px;" class= "box mb-3 me-3 d-flex justify-content-center box--${i}">${i}</li>`;
+     const square = `<li style="border: 2px solid #1389B2;padding:25px;color:black; background-color:#1389B2;" class= "box mb-3 me-3 d-flex justify-content-center box--${i}">${i}</li>`;
      //se funziona,
      //console.log(square);
      //aggiungo quegli elementi in pagina dentro la row
@@ -45,15 +45,15 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
 */
 if (i % 3 === 0 && i % 5 === 0){
     //console.log("fizzBuzz"); funziona
-    const squareFizzBuzz = `<li style="border: 2px solid white;padding:25px;"  class= "box mb-3 me-3 d-flex justify-content-center">FizzBuzz</li>`;
+    const squareFizzBuzz = `<li style="border: 2px solid red;background-color:red; padding:25px; color:black;"  class= "box mb-3 me-3 d-flex justify-content-center">FizzBuzz</li>`;
     ul.innerHTML += squareFizzBuzz;
 
 } else if (i % 3 === 0) {
-    const Fizz = `<li style="border: 2px solid white;padding:25px;"  class= "box mb-3 me-3 d-flex justify-content-center">Fizz</li>`;
+    const Fizz = `<li style="border: 2px solid #0CD6A1;padding:25px;color:black;background-color:#0CD6A1;"  class= "box mb-3 me-3 d-flex justify-content-center">Fizz</li>`;
     ul.innerHTML += Fizz;
 
 } else if (i % 5 === 0){
-    const Buzz = `<li style="border: 2px solid white;padding:25px;"  class= "box mb-3 me-3 d-flex justify-content-center">Buzz</li>`;
+    const Buzz = `<li style="border: 2px solid #FFD166;padding:25px;color:black;background-color:#FFD166;"  class= "box mb-3 me-3 d-flex justify-content-center">Buzz</li>`;
     ul.innerHTML += Buzz;
 
 }else {
