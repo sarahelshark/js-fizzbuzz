@@ -45,7 +45,7 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
 */
 if (i % 3 === 0 && i % 5 === 0){
     //console.log("fizzBuzz"); funziona
-    const squareFizzBuzz = `<li style="border: 2px solid red;background-color:red; padding:25px; color:black;"  class= "box mb-3 me-3 d-flex justify-content-center">FizzBuzz</li>`;
+    const squareFizzBuzz = `<li style="border: 2px solid #F0466F;background-color:#F0466F; padding:25px; color:black;"  class= "box mb-3 me-3 d-flex justify-content-center">FizzBuzz</li>`;
     ul.innerHTML += squareFizzBuzz;
 
 } else if (i % 3 === 0) {
